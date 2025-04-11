@@ -55,10 +55,24 @@ spring.datasource.username=yourusername
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect
-## Project Structure
 
-src/ ├── main/ │ ├── java/ │ │ └── crud/ │ │ ├── controller/ │ │ ├── model/ │ │ ├── repository/ │ │ ├── service/ │ ├── resources/ │ │ ├── application.properties │ │ └── static/ │ │ └── templates/ └── test/
+**Project Structure**
 
+```
+src/
+├── main/
+│    ├── java/
+│    │     └── crud/
+│    │            ├── controller/
+│    │            ├── model/
+│    │            ├── repository/
+│    │            ├── service/
+│    ├── resources/
+│    │    ├── application.properties
+│    │    └── static/
+│    │    └── templates/
+└── test/
+```
 
 Controller: Manages HTTP requests and responses.
 
